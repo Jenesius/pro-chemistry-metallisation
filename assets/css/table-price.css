@@ -1,0 +1,13 @@
+.table-price {
+    color: white;
+    padding: 0px 30px;
+}
+.table-price>thead td {
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    padding: 8px 30px;
+}
+.table-price td {
+    padding: 5px 30px;
+    text-align: left;
+}

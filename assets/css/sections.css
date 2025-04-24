@@ -1,0 +1,25 @@
+@media screen and (min-width: 1200px) {
+    .section-radius {
+        border-radius: 230px 230px 0 0 ;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .section-radius {
+        border-radius: 180px 180px 0 0 ;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .section-radius {
+        border-radius: 140px 140px 0 0 ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-radius {
+        border-radius: 100px 100px 0 0 ;
+    }
+}
+.section-footer {
+    padding: 53px 0 76px 0;
+}

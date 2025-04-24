@@ -1,0 +1,23 @@
+.widget-advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget-advantage {
+    box-sizing: border-box;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .widget-advantages-list>* {
+        width: 200px;
+        max-width: 200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .widget-advantages-list>* {
+        width: 100% !important;
+    }
+    .widget-advantages-telegram {
+        flex-grow: 1;
+    }
+}

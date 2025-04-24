@@ -1,0 +1,171 @@
+@import "background.css";
+@import "button.css";
+@import "color.css";
+@import "flex.css";
+@import "gap.css";
+@import "margin.css";
+@import "padding.css";
+@import "radius.css";
+@import "text.css";
+@import "transition.css";
+@import "wrap.css";
+@import "fonts.css";
+@import "title.css";
+@import "sections.css";
+@import "card.css";
+@import "widgets/widget-logo-design.css";
+@import "widgets/widget-contact.css";
+@import "widgets/widget-card-service.css";
+@import "widgets/widget-footer.css";
+@import "widgets/widget-header.css";
+@import "widgets/widget-advantages.css";
+@import "table-price.css";
+* {
+    font-family: inherit;
+}
+
+.dark .text-color-auto {
+    color: var(--gray) !important;
+}
+.text-color-auto {
+    color: var(--light);
+}
+
+.blur  {
+    background-color: #D9D9D920 !important;
+}
+html {
+    --primary: #F17E01;
+    --dark: #414141;
+    --gray: #5B5B5B;
+    --light: #fff;
+
+    --fast: 0.1s;
+    --slow: 0.3s;
+    --radius: 30px;
+}
+.text-center {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "akrobat", serif;
+}
+a {
+    transition: var(--slow);
+    text-decoration: none;
+}
+a:hover {
+    color: #c6c6c6;
+}
+
+ul {
+    margin: 0;
+}
+
+.telegram-link {
+    padding-left: 30px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+@media screen and (min-width: 769px) {
+    .hide-desktop {
+        display: none;
+    }
+}
+
+
+
+.main-border {
+    --color: #fff;
+    position: relative;
+    padding: 20px;
+    background:
+        /* Уголки */
+            linear-gradient(to bottom, var(--color) 1px, transparent 1px) 0 0,
+            linear-gradient(to right, var(--color) 1px, transparent 1px) 0 0,
+            linear-gradient(to top, var(--color) 1px, transparent 1px) 0 100%,
+            linear-gradient(to right, var(--color) 1px, transparent 1px) 0 100%,
+            linear-gradient(to bottom, var(--color) 1px, transparent 1px) 100% 0,
+            linear-gradient(to left, var(--color) 1px, transparent 1px) 100% 0,
+            linear-gradient(to top, var(--color) 1px, transparent 1px) 100% 100%,
+            linear-gradient(to left, var(--color) 1px, transparent 1px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size:
+            40px 1px, 1px 40px,
+            40px 1px, 1px 40px,
+            40px 1px, 1px 40px,
+            40px 1px, 1px 40px;
+}
+
+.dark .main-border {
+    --color: var(--gray);
+}
+
+.widget-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    height: 500px;
+    padding: 10px 0 20px 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 30px;
+}
+.widget-gallery-item {
+    border-radius: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 500px;
+    min-width: 500px;
+}
+.widget-gallery-item > p{
+    padding: 11px;
+    border-radius: 30px;
+}
+
+/* Width */
+.widget-gallery::-webkit-scrollbar {
+    height: 12px; /* Общая ширина скроллбара */
+}
+
+/* Track */
+.widget-gallery::-webkit-scrollbar-track {
+    background: #5B5B5B;
+    border-radius: 30px;
+}
+
+/* Handle */
+.widget-gallery::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+    border: 2px solid transparent; /* Прозрачная рамка */
+
+    /* Делаем бегунок меньше трека */
+    background-clip: content-box; /* Фон бегунка обрезается до контентной области */
+}
+.telegram-link {
+    background-color: var(--light);
+    color: var(--gray)
+}
+.dark .telegram-link {
+    background-color: var(--gray);
+    color: var(--light)
+}

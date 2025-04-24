@@ -1,0 +1,6 @@
+.contact-phone {
+    transition: var(--slow);
+}
+.widget-contact:hover>.contact-phone {
+    color: var(--primary)
+}

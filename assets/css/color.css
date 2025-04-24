@@ -1,0 +1,9 @@
+.color-light {
+    color: white;
+}
+.color-primary {
+    color: var(--primary)
+}
+.color-gray {
+    color: var(--gray);
+}

@@ -1,0 +1,18 @@
+.widget-footer-navigation-item {
+    list-style: none;
+    padding: 0;
+}
+@media screen and (min-width: 769px) {
+    .widget-footer-navigation-item {
+        display: flex;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .widget-footer-navigation-item {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

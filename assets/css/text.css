@@ -1,0 +1,29 @@
+.text-md {
+    font-size: 14px;
+    line-height: 100%;
+}
+.text-lg {
+    font-size: clamp(1rem,  1vw + 1rem, 24px);
+    line-height: 100%;
+
+}
+
+.text-bold {
+    font-weight: 700;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-domione {
+    font-family: "domione", serif;
+}
+.text-right {
+    text-align: right;
+}
+.text-nowrap {
+    text-wrap: nowrap;
+}

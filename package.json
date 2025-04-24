@@ -1,0 +1,16 @@
+{
+  "name": "pro-chemistry-metallisation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build && copyfiles -u 2 assets/img/**/* dist/assets/img/"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite": "^6.3.2"
+  }
+}

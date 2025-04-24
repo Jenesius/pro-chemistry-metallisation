@@ -1,0 +1,6 @@
+.slow {
+    transition: var(--slow);
+}
+.fast {
+    transition: var(--fast);
+}

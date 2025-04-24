@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'domione'; /*a name to be used later*/
+    src: url('./../fonts/DAMIONE-REGULAR.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'akrobat';
+    src: url('./../fonts/Akrobat-Light.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'akrobat';
+    src: url('./../fonts/Akrobat-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}

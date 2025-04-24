@@ -1,0 +1,24 @@
+.back-gray {
+    background-color: var(--gray);
+}
+.back-dark {
+    background-color: var(--dark);
+}
+
+.back-light {
+    background-color: var(--light);
+}
+.back-light-gray {
+    position: relative;
+    background-color: #FBFBFB;
+}
+.back-light-gray:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 300px;
+    width: 100%;
+    top: calc(100% - 10px);
+
+    background-color: inherit;
+}

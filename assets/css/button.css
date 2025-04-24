@@ -1,0 +1,17 @@
+button {
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-style-default {
+    color: var(--gray);
+}
+.button-size-md {
+    font-size: clamp(1rem,  0.5vw + 1rem, 24px);
+    padding: 10px 32px;
+    border-radius: 30px;
+}
+button:hover {
+    color: var(--dark);
+}

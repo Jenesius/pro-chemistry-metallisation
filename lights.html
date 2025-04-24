@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width,minimum-scale=1.0" name="viewport">
+    <title>Tori Group</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body style="background-image: url('/assets/img/background/light-background-full.png')">
+
+<div class="wrap">
+
+    <widget-loader></widget-loader>
+
+    <widget-header  class = "dark"></widget-header>
+
+    <widget-info-block
+            class = "dark"
+            title="св*е*товые"
+            info="Изготовление световых Коробов / Вывесок / Акрилайтов / Консолей для рекламы в Санкт-Петербурге и Ленинградской области от 15 000 ₽">
+
+    </widget-info-block>
+
+    <widget-advantages class = "dark"></widget-advantages>
+</div>
+
+<div class=" section-radius back-light-gray">
+    <div class="wrap">
+        <widget-list>
+            <h1 class="title-lg text-domione" slot="title">в<span class="color-primary">и</span>ды</h1>
+            <div class="flex-column gap-50">
+                <widget-card-product
+                        tags='["Эффектная реклама", "Привлекает внимание"]'
+                        title="Световые объемные буквы с лицевой подсветкой"
+                        icons='["3d-light", "sun-light"]'
+                        img="/assets/img/background/light-box.png"
+                >
+                    <!--СЛОТ НЕ РАБОТАЕТ, т.к. это не shadow компонента-->
+                    <div slot="description" class="color-light" style="padding-left: 30px">
+                        <p class="text-bold">Лазерная резка для рекламы</p>
+                        <p>
+                            Лазерная резка — это одна из ключевых технологий в современном производстве рекламной
+                            продукции. Благодаря высокой точности и аккуратности обработки, этот метод позволяет
+                            создавать сложные, оригинальные изделия с идеальной геометрией. Мы выполняем лазерную резку
+                            на собственном производстве в Санкт-Петербурге, используя высокоточное ЧПУ-оборудование
+                            последнего поколения.
+                            Точность лазерного раскроя достигает 0,03 мм, а глубина обработки — до 10 мм. Все элементы
+                            вырезаются строго по векторному макету, что гарантирует точное соответствие дизайну.
+                            Лазерная резка выполняется по широкому спектру материалов: дереву, фанере, оргстеклу,
+                            пластику, оргалиту и металлу.
+                            Процесс полностью автоматизирован: оператор лишь задаёт параметры и контролирует работу. Это
+                            исключает ошибки, связанные с человеческим фактором, и значительно увеличивает скорость
+                            производства.
+                        </p>
+
+                        <p class="text-bold">С помощью лазерной резки мы изготавливаем:</p>
+                        <ul>
+                            <li>Таблички и номерки</li>
+                            <li>Брендовые декоративные элементы</li>
+                            <li>Указатели и навигацию</li>
+                            <li>Фигурные буквы и логотипы</li>
+                            <li>Элементы интерьерной рекламы и POS-материалы</li>
+                        </ul>
+
+                        <p class="text-bold">Преимущества лазерной резки:</p>
+                        <ul>
+                            <li>Идеально ровные кромки без заусенцев</li>
+                            <li>Максимальная точность геометрии</li>
+                            <li>Повторяемость деталей без отклонений</li>
+                            <li>Минимум отходов материала</li>
+                            <li>Возможность создания изделий любой сложности</li>
+                        </ul>
+
+                        <p>
+                            Дополнительно мы предлагаем лазерную гравировку, которая позволяет нанести на поверхность
+                            текст, логотип или сложный рисунок. Благодаря бесконтактной технологии, изображение
+                            получается чётким, долговечным и не повреждает поверхность материала.
+                            Мы предоставляем официальную гарантию на все услуги, а все работы сопровождаются договором с
+                            прозрачными условиями и сроками.
+                        </p>
+                    </div>
+                    <widget-gallery
+                            slot="gallery"
+                            array='
+                            [{"img": "/assets/img/background/product-1-gallery-1.png", "title": "Световые объемные буквы с подцветкой"},
+                            {"img": "/assets/img/background/product-1-gallery-2.png", "title": "Световые объемные буквы с боковой подцветкой"},
+                            {"img": "/assets/img/background/product-1-gallery-3.png", "title": "Световые объемные буквы с лицевой подсветкой"}]
+                        '
+                    ></widget-gallery>
+
+                    <table slot="price" class = "table-price">
+                        <thead>
+                            <tr>
+                                <td class = "text-lg color-light">Тип шрифта</td>
+                                <td class = "text-lg color-light">Цена за 1 см</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-md">Объемные буквы простой шрифт:</td>
+                                <td>80 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Объемные буквы Шрифт с засечками:</td>
+                                <td>90 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Объемные буквы Сложный шрифт:</td>
+                                <td>100 руб</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </widget-card-product>
+                <widget-card-product
+                        tags='["Элегантная реклама", "В фирменном стиле"]'
+                        title="Световые объемные буквы с Контражурной подсветкой"
+                        icons='["3d-light", "sun-light", "circle-light"]'
+                        img="/assets/img/background/back-product-2.png"
+                ></widget-card-product>
+
+            </div>
+        </widget-list>
+    </div>
+</div>
+
+
+<widget-footer></widget-footer>
+
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

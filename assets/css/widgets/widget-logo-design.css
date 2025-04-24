@@ -1,0 +1,7 @@
+.widget-logo-design {
+    fill: white;
+    transition: var(--slow);
+}
+.widget-logo-design:hover {
+    fill: var(--primary)
+}
