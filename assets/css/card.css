@@ -2,16 +2,11 @@
     position: relative;
     justify-content: end;
     border-radius: 30px;
-    transition: var(--slow);
+    transition: var(--slow) box-shadow;
     cursor: pointer;
 }
 
-.card-dark {
-    color: var(--gray)
-}
-.card-light {
-    color: var(--light)
-}
+
 .card-list {
     display: grid;
     gap: 40px;

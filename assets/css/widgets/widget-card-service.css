@@ -1,3 +1,9 @@
+.dark .card {
+    color: var(--gray)
+}
+.light .card {
+    color: var(--light)
+}
 @media screen and (min-width: 769px) {
     .card-service-footer {
         display: flex;
@@ -21,4 +27,7 @@
     z-index: 0;
     height: 100%;
     width: 100%;
+}
+.widget-card-service-logo {
+    width: 48px;
 }

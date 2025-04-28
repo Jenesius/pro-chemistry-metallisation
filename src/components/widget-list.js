@@ -3,6 +3,7 @@ template.innerHTML =
 `
 <style>
     .widget-list {
+        grid-template-columns: minmax(0, 1fr);
         padding: 131px 0;
         display: grid;
         gap: 30px;

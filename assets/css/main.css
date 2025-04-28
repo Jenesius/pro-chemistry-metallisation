@@ -19,7 +19,10 @@
 @import "widgets/widget-footer.css";
 @import "widgets/widget-header.css";
 @import "widgets/widget-advantages.css";
+@import "widgets/widget-info-block.css";
 @import "table-price.css";
+@import "dialog.css";
+
 * {
     font-family: inherit;
 }
@@ -43,6 +46,8 @@ html {
     --fast: 0.1s;
     --slow: 0.3s;
     --radius: 30px;
+
+    scroll-behavior: smooth;
 }
 .text-center {
     text-align: center;
@@ -168,4 +173,18 @@ ul {
 .dark .telegram-link {
     background-color: var(--gray);
     color: var(--light)
+}
+
+.widget-tag-info {
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    padding: 50px;
+}
+.list-tag-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: 320px;
+    gap: 40px;
 }

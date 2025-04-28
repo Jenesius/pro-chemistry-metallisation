@@ -17,6 +17,11 @@ import WidgetCardTabs from "./components/widget-card-tabs.js";
 import WidgetGallery from "./components/widget-gallery.js";
 import WidgetGalleryItem from "./components/widget-gallery-item.js";
 import WidgetLoader from "./components/widget-loader.js";
+import WidgetLogo from "./components/widget-logo.js";
+import LoadingController from "./loading-controller.js";
+import WidgetTagInfo from "./components/widget-tag-info.js";
+import WidgetListTagInfo from "./components/widget-list-tag-info.js";
+import DialogCooperate from "./components/dialog-cooperate.js";
 
 customElements.define("widget-advantages", WidgetAdvantages);
 customElements.define("widget-advantages-item", WidgetAdvantagesItem);
@@ -39,3 +44,18 @@ customElements.define("widget-card-tabs", WidgetCardTabs);
 customElements.define("widget-gallery", WidgetGallery);
 customElements.define("widget-gallery-item", WidgetGalleryItem);
 customElements.define("widget-loader", WidgetLoader);
+customElements.define("widget-logo", WidgetLogo);
+customElements.define("widget-tag-info", WidgetTagInfo);
+customElements.define("widget-list-tag-info", WidgetListTagInfo);
+customElements.define("dialog-cooperate", DialogCooperate);
+
+const dialog = document.createElement("dialog-cooperate")
+document.body.append(dialog);
+dialog.addEventListener("submit", () => {
+    console.log('+++')
+})
+
+const loadingController = new LoadingController();
+
+if (loadingController.shouldLoad())
+    document.body.append(document.createElement("widget-loader"))

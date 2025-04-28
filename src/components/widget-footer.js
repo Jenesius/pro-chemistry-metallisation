@@ -3,7 +3,7 @@ const template = document.createElement("template");
 template.innerHTML =
 `    <div class = "back-dark section-radius section-footer">
         <div class = "wrap  color-light">
-            <h1 class = "text-domione title-lg m-b-100">К<span class = "color-primary">о</span>нтакты</h1>
+            <h1 id = "contacts" class = "text-domione title-lg m-b-100">К<span class = "color-primary">о</span>нтакты</h1>
             <div class = "m-b-100 flex gap-40 flex-wrap">
             
                 <p class = "title-md text-uppercase">начнём с простого:</p>

@@ -13,7 +13,6 @@ template.innerHTML = `
         title="Собственное производство"
     ></widget-advantages-item>
     <widget-advantages-item
-        class = "blur"
         img="/assets/img/icon/entypo_shield.svg"
         title="Гарантия качества"
     ></widget-advantages-item>

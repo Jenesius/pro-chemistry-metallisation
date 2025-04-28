@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
+    "dev": "npm start",
     "build": "vite build && copyfiles -u 2 assets/img/**/* dist/assets/img/"
   },
   "author": "",

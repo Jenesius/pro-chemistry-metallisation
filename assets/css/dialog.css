@@ -1,0 +1,41 @@
+#dialog {
+    width: 90%;
+    max-width: 500px;
+    box-sizing: border-box;
+    border-radius: var(--radius);
+
+    background-color: var(--gray);
+    border: 0;
+
+    padding: 50px 66px;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+#dialog input {
+    width: 300px;
+    height: 60px;
+    border-radius: var(--radius);
+    background-color: white;
+    color: var(--gray);
+    border: 0;
+
+    outline: 0;
+}
+.dialog-logo {
+    width: 120px;
+}
+.button-submit {
+    width: 100%;
+}
+.dialog-close-button {
+    height: 32px;
+    width: 32px;
+    padding: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+    background-color: transparent;
+}

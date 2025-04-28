@@ -1,0 +1,18 @@
+.widget-info-block {
+    position: relative;
+}
+.widget-info-block-text {
+    max-width: 720px;
+}
+.widget-info-block-img {
+    padding: 20px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    transition: transform 0.2s ease;
+}
+@media screen and (max-width: 768px) {
+    .widget-info-block-img {
+        display: none;
+    }
+}
